@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch SLAM and Navigation Packages -->
+  <include file="$(find rbe3002_demo)/launch/slam_nav.launch" />
+
+  <!-- <node pkg="rbe3002_demo" type="mapping.py" name="mapping" /> -->
+
+</launch>

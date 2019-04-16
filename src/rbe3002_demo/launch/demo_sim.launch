@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- Launch Gazebo -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+
+  <!-- Launch SLAM and Navigation Packages -->
+  <include file="$(find rbe3002_demo)/launch/demo_base.launch" />
+
+
+</launch>

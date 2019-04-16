@@ -1,0 +1,7 @@
+<launch>
+
+  
+  <include file="$(find rbe3002_demo)/launch/demo_base.launch" />
+
+
+</launch>
